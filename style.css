@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://source.unsplash.com/1920x1080/?india");
+  background-repeat: no-repeat;
+  object-position: center;
+  font-family: sans-serif;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #fff;
+  width: 100vw;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 2px 2px 20px 1px rgba(0, 0, 0, 0.2);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+header {
+  width: 300px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.card {
+  width: 300px;
+  height: 450px;
+  position: relative;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.country {
+  font-size: 24px;
+  margin: 20px 0 0 10px;
+}
+
+.container-info {
+  margin-top: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.details {
+  height: 75px;
+  margin: 3px;
+  min-width: 130px;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+}
+.details p {
+  margin-top: 10px;
+}
+
+/* info */
+.tempinfo {
+  font-size: 42px;
+  font-weight: 800px;
+  margin: 0 auto;
+}
+
+.icon img {
+  height: 100px;
+  width: 100px;
+}
+/* Search bar */
+.search-bar {
+  width: 100%;
+  margin: 30px 0;
+}
+.search-bar div {
+  max-width: 225px;
+  margin: auto;
+}
+.search-bar input {
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50px;
+  font-size: 14px;
+  border: none;
+  color: #fff;
+}
+
+.search-bar input:focus {
+  border: none;
+  outline: none;
+}
+
+.search-bar button {
+  padding: 5px;
+  background-color: #444;
+  border-radius: 50%;
+  border: none;
+  opacity: 1;
+}
+.search-bar button:hover {
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.5);
+}
+.search-bar button:active {
+  opacity: 0.8;
+}
