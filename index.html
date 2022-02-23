@@ -8,19 +8,23 @@
     <title>Weather Card</title>
     <link rel="shortcut icon" type="image/png" href="./cloudy.png" />
     <link rel="stylesheet" href="style.css" />
+    <script defer src="./config.js"></script>
     <script defer src="script.js"></script>
   </head>
   <body>
-    <header>
-      <h1>Weather App</h1>
-      <form class="search-bar">
-        <div>
-          <input type="search" placeholder=" Search" />
-          <button type="submit">🔍</button>
-        </div>
-      </form>
-    </header>
-
-    <div class="container"></div>
+    <div class="main-container">
+      <!-- title and search bar -->
+      <header>
+        <h1>Weather App</h1>
+        <form class="search-bar">
+          <div>
+            <input type="search" placeholder=" Search by city name" />
+            <button type="submit">🔍</button>
+          </div>
+        </form>
+      </header>
+      <!-- Weather info -->
+      <div class="container"></div>
+    </div>
   </body>
 </html>
