@@ -1,5 +1,3 @@
-import { API_KEY } from "./Api_key";
-
 const info = document.querySelectorAll(".details");
 const container = document.querySelector(".container");
 const loadingRipple = ` 
