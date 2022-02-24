@@ -7,7 +7,7 @@
 body {
   background-image: url("https://source.unsplash.com/1920x1080/?india");
   background-repeat: no-repeat;
-  object-position: center;
+  background-position: center center;
   font-family: sans-serif;
   line-height: 1.5;
   display: flex;
@@ -140,5 +140,12 @@ body {
     width: 72px;
     height: 72px;
     opacity: 0;
+  }
+}
+/* 
+media query */
+@media (max-height: 400px) {
+  .main-container {
+    margin-top: 300px;
   }
 }
